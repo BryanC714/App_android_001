@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">App_android_001</string>
+    <string name="app_name">Primera App en Android</string>
+    <string name="textView_1">Usuario</string>
 </resources>
