@@ -12,34 +12,43 @@
         android:id="@+id/textViewUser"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Usuario" />
+        android:text="@string/textview_text_user" />
 
     <EditText
         android:id="@+id/editTextUser"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:autofillHints=""
         android:ems="10"
+        android:hint="@string/edittext_hint_user"
         android:inputType="text"
-        android:text="Name" />
+        android:minHeight="48dp"
+        android:textColorHint="#546E7A"
+        tools:ignore="VisualLintTextFieldSize" />
 
     <TextView
         android:id="@+id/textViewPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Contraseña" />
+        android:text="@string/textview_text_password" />
 
     <EditText
         android:id="@+id/editTextPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:autofillHints=""
         android:ems="10"
+        android:hint="@string/edittext_hint_password"
         android:inputType="text"
-        android:text="Name" />
+        android:minHeight="48dp"
+        android:textColorHint="#546E7A"
+        tools:ignore="TextFields,VisualLintTextFieldSize" />
 
     <Button
         android:id="@+id/buttonOk"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Button" />
+        android:text="@string/button_text_ok"
+        tools:ignore="VisualLintButtonSize" />
 
 </LinearLayout>

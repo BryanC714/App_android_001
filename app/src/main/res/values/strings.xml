@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">Primera App en Android</string>
-    <string name="textView_1">Usuario</string>
+    <string name="textview_text_user">Usuario</string>
+    <string name="textview_text_password">Contraseña</string>
+    <string name="edittext_hint_user">Ingrese el usuario</string>
+    <string name="edittext_hint_password">Ingrese su contraseña</string>
+    <string name="button_text_ok">Aceptar</string>
 </resources>
