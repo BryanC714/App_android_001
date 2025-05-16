@@ -48,7 +48,6 @@
         android:id="@+id/buttonOk"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:onClick="clickButtonOk"
         android:text="@string/button_text_ok"
         tools:ignore="VisualLintButtonSize" />
 
