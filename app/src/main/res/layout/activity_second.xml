@@ -13,4 +13,39 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/textViewMessage_text" />
+
+    <Button
+        android:id="@+id/buttonBrowser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="clickButtonBrowser"
+        android:text="@string/button_text_browser" />
+
+    <Button
+        android:id="@+id/buttonCall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="clickButtonCall"
+        android:text="@string/button_text_call" />
+
+    <Button
+        android:id="@+id/buttonGoggleMaps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="clickButtonGoggleMaps"
+        android:text="@string/button_text_googleMaps" />
+
+    <Button
+        android:id="@+id/buttonShowThirdActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="clickButtonShowThirdActivity"
+        android:text="@string/button_text_showThirdActivity" />
+
+    <Button
+        android:id="@+id/buttonClose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="clickButtonClose"
+        android:text="@string/button_text_close" />
 </LinearLayout>

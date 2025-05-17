@@ -8,4 +8,9 @@
     <string name="button_text_ok">Aceptar</string>
     <!-- SecondActivity -->
     <string name="textViewMessage_text">Esto pasa del primer formulario: </string>"
+    <string name="button_text_browser">Navegar</string>"
+    <string name="button_text_call">Llamar</string>"
+    <string name="button_text_googleMaps">Google Maps</string>"
+    <string name="button_text_showThirdActivity">Mostrar Activity</string>"
+    <string name="button_text_close">Cerrar</string>"
 </resources>

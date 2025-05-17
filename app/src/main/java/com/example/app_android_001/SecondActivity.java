@@ -1,6 +1,9 @@
 package com.example.app_android_001;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
@@ -27,5 +30,24 @@ public class SecondActivity extends AppCompatActivity {
         String password =extras.getString("passwordParm");
         textViewMessage=findViewById(R.id.textViewMessage);
         textViewMessage.setText("Usuario: "+user+" "+"Contraseña: "+password);
+    }
+    public void clickButtonBrowser(View view) {
+        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.google.com"));
+        startActivity(intent);
+    }
+    public void clickButtonCall(View view) {
+        Intent intent = new Intent(Intent.ACTION_DIAL, Uri.parse("tel:5555555555"));
+        startActivity(intent);
+    }
+    public void clickButtonGoggleMaps(View view) {
+        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("geo:0,0?q=160"));
+        startActivity(intent);
+    }
+    public void clickButtonShowThirdActivity(View view) {
+        Intent intent = new Intent(getApplicationContext(), ThirdActivity.class);
+        startActivity(intent);
+    }
+    public void clickButtonClose(View view) {
+        this.finish();
     }
 }
